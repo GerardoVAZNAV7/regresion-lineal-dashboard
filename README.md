@@ -1,10 +1,10 @@
 # Dashboard de Regresión Lineal · Equipo 13
 
-¡Hola! 👋 Este es un pequeño dashboard que hice para mi clase de **Sistemas de Apoyo a la Decisión** (Unidad 3) en la Facultad de Ingeniería Mochis (UAS). Lo comparto por si a alguien le sirve para entender, practicar o enseñar **regresión lineal por mínimos cuadrados ordinarios**.
+¡Hola! 👋 Este es un pequeño dashboard que hicimos mi equipo y yo para nuestra clase de **Sistemas de Apoyo a la Decisión** (Unidad 3) en la Facultad de Ingeniería Mochis (UAS). Lo compartimos por si a alguien le sirve para entender, practicar o enseñar **regresión lineal por mínimos cuadrados ordinarios**.
 
 La idea es simple: capturas tus pares de datos `(x, y)`, y la app calcula la recta que mejor se ajusta, te muestra los errores, las métricas de evaluación y, además, el **procedimiento paso a paso** con las fórmulas ya sustituidas con tus números. Todo se recalcula al instante mientras escribes.
 
-Si lo clonas, siéntete libre de usar los datos de ejemplo, cambiarlos por los tuyos o modificar lo que quieras. Está hecho con **Vue 3 + Vite** y **Chart.js**.
+Si lo clonas, siéntete libre de usar los datos de ejemplo, cambiarlos por los tuyos o modificar lo que quieras. Lo construimos con **Vue 3 + Vite** y **Chart.js**.
 
 ---
 
@@ -147,7 +147,7 @@ La lógica de cálculo está toda en `src/lib/regression.js` (función `fit`), a
 
 ## Créditos
 
-Hecho con cariño por el **Equipo 13**:
+Hecho con cariño por mi equipo, el **Equipo 13**:
 
 - Carlos David Cota Sañudo
 - Jaime Omar Escalante Soto
