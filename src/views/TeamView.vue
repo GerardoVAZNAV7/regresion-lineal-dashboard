@@ -6,8 +6,8 @@ const members = [
   { name: 'Gerardo Miguel Vázquez Navarro', first: 'gerardo' },
 ]
 const initials = (n) => n.split(' ').filter((_, i, a) => i === 0 || i === a.length - 2).map((w) => w[0]).join('')
-const photos = import.meta.glob('../../assets/*.jpeg', { eager: true, import: 'default' })
-const photo = (first) => Object.entries(photos).find(([p]) => p.toLowerCase().endsWith(`/${first}.jpeg`))?.[1] ?? null
+const photos = import.meta.glob('../../assets/*.{jpeg,jpg,png,webp}', { eager: true, import: 'default' })
+const photo = (first) => Object.entries(photos).find(([p]) => new RegExp(`/${first}\\.(jpe?g|png|webp)$`, 'i').test(p))?.[1] ?? null
 const zoomed = ref(null)
 const info = [
   ['Universidad', 'Universidad Autónoma de Sinaloa'],
